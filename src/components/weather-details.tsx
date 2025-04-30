@@ -4,8 +4,6 @@ import { Compass, Gauge, Sunrise, Sunset } from "lucide-react";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "./ui/card";
