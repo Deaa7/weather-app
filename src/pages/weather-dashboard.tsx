@@ -12,7 +12,7 @@ import {
   useReverseGeocodeQuery,
   useWeatherQuery,
 } from "@/hooks/use-weather";
-import { AlertCircle, AlertTriangle, MapPin, RefreshCw } from "lucide-react";
+import {  AlertTriangle, MapPin, RefreshCw } from "lucide-react";
 
 export default function WeatherDashboard() {
   const {

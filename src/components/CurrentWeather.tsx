@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card";
 import { ArrowDown, ArrowUp, Droplets, Wind } from "lucide-react";
 
 type paramsType = {
-  data: WeatherData | null;
+  data: WeatherData;
   locationName?: GeocodingResponse | undefined;
 };
 export default function CurrentWeather({ data, locationName }: paramsType) {
